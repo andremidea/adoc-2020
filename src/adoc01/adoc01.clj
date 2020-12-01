@@ -28,3 +28,6 @@
                  :let [s (+ record record2 record3)]
                  :when (= s 2020)]
              (* record record2 record3)))))
+
+(println (expense-report))
+(println (expense-report-2))
